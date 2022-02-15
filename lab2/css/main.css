@@ -20,8 +20,16 @@ aside {
     width: 30%;
     padding-left: 1px;
     padding-right: 1px;
-    float: right;
     text-align: center;
+}
+
+/** Different asides for different placements **/
+.asideRight {
+    float: right;
+}
+
+.asideLeft {
+    float: left;
 }
 
 /**  Setting the margin between the header and aside sections **/
