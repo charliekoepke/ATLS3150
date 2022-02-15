@@ -1,0 +1,39 @@
+/** Importing fonts from Google Fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Old Standard TT', serif;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+aside {
+    width: 30%;
+    padding-left: 1px;
+    padding-right: 1px;
+    float: right;
+    text-align: center;
+}
+
+/**  Setting the margin between the header and aside sections **/
+aside > header {
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+    vertical-align: text-top;
+}
