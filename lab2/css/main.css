@@ -10,10 +10,15 @@ body {
 
 h1 {
     font-family: 'Old Standard TT', serif;
+    font-size: 30pt;
 }
 
 h2 {
-    font-size: 14pt;
+    font-size: 16pt;
+}
+
+h3 {
+    font-size: 12pt;
 }
 
 aside {
