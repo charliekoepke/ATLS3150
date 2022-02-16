@@ -49,6 +49,15 @@ aside {
     color: #1B1B1B;
 }
 
+#asideTable a:link {
+    /* color: white; */
+}
+
+#asideTable a:hover,
+#asideTable a:visited {
+    /* color: black; */
+}
+
 /** Different asides for different placements **/
 .asideRight {
     float: right;
