@@ -1,4 +1,4 @@
-/** Importing fonts from Google Fonts **/
+/* Importing fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
@@ -26,12 +26,12 @@ h3 {
     font-size: 18pt;
 }
 
-/** Colour for unvisited link **/
+/* Colour for unvisited link */
 a:link {
     color: #8b506d;
 }
 
-/** Colour for hover and visited link **/
+/* Colour for hover and visited link */
 a:hover,
 a:visited {
     color: #381a3e;
@@ -49,6 +49,7 @@ aside {
     color: #1B1B1B;
 }
 
+/* Different coloured links for aside table */
 #asideTable a:link {
     color: #4D223E;
 }
@@ -58,7 +59,7 @@ aside {
     color: #38192D;
 }
 
-/** Different asides for different placements **/
+/* Different asides for different placements */
 .asideRight {
     float: right;
     margin-left: 1%;
