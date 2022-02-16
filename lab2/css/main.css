@@ -37,16 +37,20 @@ aside {
     float: left;
 }
 
-/**  Setting the margin between the header and aside sections **/
-aside > header {
-    margin: 5px;
-}
-
 table {
+    margin-left: 75px;
     width: 100%;
+    text-align: left;
 }
 
 th {
     font-weight: bold;
     vertical-align: text-top;
+    width: 40%;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-size: 10pt;
 }
