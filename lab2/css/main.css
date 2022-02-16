@@ -19,11 +19,11 @@ h1 {
 }
 
 h2 {
-    font-size: 16pt;
+    font-size: 20pt;
 }
 
 h3 {
-    font-size: 12pt;
+    font-size: 18pt;
 }
 
 /** Colour for unvisited link **/
@@ -75,6 +75,7 @@ table {
     text-align: left;
     padding-bottom: 15%;
     padding-top: 5%;
+    font-size: 12pt;
 }
 
 th {
