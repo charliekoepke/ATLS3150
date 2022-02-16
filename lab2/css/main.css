@@ -26,6 +26,7 @@ h3 {
     font-size: 18pt;
 }
 
+/* Used code from Stack Overflow https://stackoverflow.com/questions/32196141/css-width100-not-working-in-google-chrome */
 figure {
     margin: 5px;
     display: inline-table;
