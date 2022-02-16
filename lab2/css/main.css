@@ -26,6 +26,17 @@ h3 {
     font-size: 12pt;
 }
 
+/** Colour for unvisited link **/
+a:link {
+    color: #8b506d;
+}
+
+/** Colour for hover and visited link **/
+a:hover,
+a:visited {
+    color: #381a3e;
+}
+
 aside {
     width: 30%;
     padding-left: 1px;
