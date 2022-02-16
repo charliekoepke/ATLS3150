@@ -26,8 +26,22 @@ h3 {
     font-size: 18pt;
 }
 
-figcaption {
-    font-size: 10pt;
+figure {
+    margin: 5px;
+    display: inline-table;
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box ;
+     box-sizing: border-box ;
+}
+
+figure figcaption {
+    text-align: center;
+    font-size: 12px;
+    display: table-caption;
+    caption-side: bottom;
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box ;
+    box-sizing: border-box ;
 }
 
 /* Colour for unvisited link */
