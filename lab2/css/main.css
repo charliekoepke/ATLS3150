@@ -50,12 +50,12 @@ aside {
 }
 
 #asideTable a:link {
-    /* color: white; */
+    color: #4D223E;
 }
 
 #asideTable a:hover,
 #asideTable a:visited {
-    /* color: black; */
+    color: #38192D;
 }
 
 /** Different asides for different placements **/
