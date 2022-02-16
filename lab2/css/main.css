@@ -26,6 +26,10 @@ h3 {
     font-size: 18pt;
 }
 
+figcaption {
+    font-size: 10pt;
+}
+
 /* Colour for unvisited link */
 a:link {
     color: #8b506d;
@@ -42,30 +46,27 @@ aside {
     padding-left: 1px;
     padding-right: 1px;
     text-align: center;
-}
-
-#asideTable {
     background-color: #9594C0;
     color: #1B1B1B;
 }
 
 /* Different coloured links for aside table */
-#asideTable a:link {
+aside a:link {
     color: #4D223E;
 }
 
-#asideTable a:hover,
-#asideTable a:visited {
+aside a:hover,
+aside a:visited {
     color: #38192D;
 }
 
 /* Different asides for different placements */
-.asideRight {
+.right {
     float: right;
     margin-left: 1%;
 }
 
-.asideLeft {
+.left {
     float: left;
     margin-right: 1%;
 }
