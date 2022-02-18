@@ -75,6 +75,10 @@ aside a:visited {
     color: #38192D;
 }
 
+aside img {
+    width: 200px;
+}
+
 /* Different asides for different placements */
 .right {
     float: right;
@@ -88,11 +92,15 @@ aside a:visited {
 
 table {
     margin-left: 15%;
-    width: 100%;
+    width: auto;
     text-align: left;
     padding-bottom: 15%;
     padding-top: 5%;
     font-size: 12pt;
+}
+
+table th {
+    padding-right: 10px;
 }
 
 th {
