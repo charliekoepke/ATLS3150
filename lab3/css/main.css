@@ -1,0 +1,20 @@
+/* Importing from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+html {
+    background-color: #D5E6CB;
+    color: #564295;
+    font-family: 'Quicksand', sans-serif;
+}
+
+table,
+th,
+td {
+    border: 3px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    width: 50%;
+}
