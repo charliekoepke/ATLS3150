@@ -2,11 +2,16 @@
     [class *= "col-"] {
         width: 100%;
     }
+    nav {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
 }
 
 nav {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: stretch;
 }
@@ -19,12 +24,19 @@ main {
 
 #leftAside {
     grid-column: 1;
+    grid-row: 1;
 }
 
 #rightAside {
     grid-column: 3;
+    grid-row: 1;
 }
 
 section {
     grid-column: 2;
+    grid-row: 1;
+}
+
+footer {
+    text-align: center;
 }
