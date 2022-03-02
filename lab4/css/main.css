@@ -35,21 +35,31 @@ nav ul {
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
 }
 
 #leftAside {
     grid-column: 1;
     grid-row: 1;
+    padding: 10px;
+
+    background-color: aquamarine;
 }
 
 #rightAside {
     grid-column: 3;
     grid-row: 1;
+    padding: 10px;
+
+    background-color: aqua;
 }
 
 section {
     grid-column: 2;
     grid-row: 1;
+    padding: 10px;
+
+    background-color: blue;
 }
 
 footer {
