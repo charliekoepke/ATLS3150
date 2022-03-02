@@ -1,3 +1,8 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+/* Mobile Format*/
 @media only screen and (max-width: 768px) {
     [class *= "col-"] {
         width: 100%;
@@ -9,13 +14,12 @@
     }
 }
 
-
-
 html {
-
+    font-family: 'Antic', sans-serif;
 }
 
 header {
+    font-family: 'Baskervville', serif;
     text-align: center;
 }
 
@@ -24,13 +28,13 @@ nav ul {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: stretch;
+
     list-style: none;
 }
 
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
 }
 
 #leftAside {
