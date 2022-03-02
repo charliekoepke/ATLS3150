@@ -9,11 +9,22 @@
     }
 }
 
-nav {
+
+
+html {
+
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: stretch;
+    list-style: none;
 }
 
 main {
