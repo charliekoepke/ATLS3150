@@ -5,9 +5,26 @@
 }
 
 nav {
-
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     
+}
+
+#leftAside {
+    grid-column: 1;
+}
+
+#rightAside {
+    grid-column: 3;
+}
+
+section {
+    grid-column: 2;
 }
