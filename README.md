@@ -14,7 +14,7 @@ All labs and projects for ATLS 3150 - Universal Design for Digital Media
 
 [Documentation](https://charliekoepke.wordpress.com/2022/02/21/lab-the-basics/)
 
-## [Lab - Tables, Forms, Tabbed Browsing, and Screen Reading]()
+## [Lab - Tables, Forms, Tabbed Browsing, and Screen Reading](https://creative.colorado.edu/~chko6454/atls3150/lab3/)
 
 > Create a properly structured semantic HTML page with "lifted content" (no lorem ipsum) that contains accessible form elements and an accessible data table, and validate with HTML validator.
 
