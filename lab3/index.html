@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     <head>
         <title>Screen Reading</title>
         <meta charset="utf-8">
@@ -23,16 +23,19 @@
                     <br>
                     <input type="text" id="last-name">
                     <br><br>
-                    <label>Grade</label>
+                    <fieldset>
+                        <legend>Please select what grade you are in:</legend>
+                        <br>
+                            <input type="radio" name="grade" value="Freshman" id="freshman">
+                        <label for="freshman">Freshman</label><br>
+                        <input type="radio" name="grade" value="Sophomore" id="sophomore">
+                        <label for="sophomore">Sophomore</label><br>
+                        <input type="radio" name="grade" value="Junior" id="junior">
+                        <label for="junior">Junior</label><br>
+                        <input type="radio" name="grade" value="Senior" id="senior">
+                        <label for="senior">Senior</label><br>
+                    </fieldset>
                     <br>
-                    <input type="radio" name="grade" value="Freshman" id="freshman">
-                    <label for="freshman">Freshman</label><br>
-                    <input type="radio" name="grade" value="Sophomore" id="sophomore">
-                    <label for="sophomore">Sophomore</label><br>
-                    <input type="radio" name="grade" value="Junior" id="junior">
-                    <label for="junior">Junior</label><br>
-                    <input type="radio" name="grade" value="Senior" id="senior">
-                    <label for="senior">Senior</label><br>
                     <br>
                     <input type="submit" value="Submit">
                 </form>

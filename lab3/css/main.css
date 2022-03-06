@@ -18,3 +18,8 @@ td {
 table {
     width: 50%;
 }
+
+fieldset {
+    border: none;
+    padding: 0px;
+}
