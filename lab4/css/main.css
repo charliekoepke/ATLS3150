@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 
-/* Mobile Format*/
+/* Mobile Format */
 @media screen and (max-width: 768px) {
     main {
         display: grid;
@@ -28,6 +28,48 @@
     }
 }
 
+/* Windows Format */
+@media screen and (min-width: 769px) {
+    nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+    
+        list-style: none;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 1em;
+    }
+    
+    #leftAside {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 1em;
+    
+        background-color: aquamarine;
+    }
+    
+    #rightAside {
+        grid-column: 3;
+        grid-row: 1;
+        padding: 1em;
+    
+        background-color: aqua;
+    }
+    
+    section {
+        grid-column: 2;
+        grid-row: 1;
+        padding: 1em;
+    
+        background-color: blue;
+    }
+}
+
 html {
     font-family: 'Antic', sans-serif;
 }
@@ -35,45 +77,6 @@ html {
 header {
     font-family: 'Baskervville', serif;
     text-align: center;
-}
-
-nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: stretch;
-
-    list-style: none;
-}
-
-main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 1em;
-}
-
-#leftAside {
-    grid-column: 1;
-    grid-row: 1;
-    padding: 1em;
-
-    background-color: aquamarine;
-}
-
-#rightAside {
-    grid-column: 3;
-    grid-row: 1;
-    padding: 1em;
-
-    background-color: aqua;
-}
-
-section {
-    grid-column: 2;
-    grid-row: 1;
-    padding: 1em;
-
-    background-color: blue;
 }
 
 footer {
