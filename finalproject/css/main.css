@@ -16,6 +16,16 @@ h2 {
     font-family: 'Noto Serif Display', serif;
 }
 
-nav ul {
+ul {
     list-style: none;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+figcaption {
+    margin-right: 1em;
+    text-align: right;
+    font-size: .8em;
 }
