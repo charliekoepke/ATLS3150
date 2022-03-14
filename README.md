@@ -16,6 +16,12 @@ All labs and projects for ATLS 3150 - Universal Design for Digital Media
 
 ## [Lab - Tables, Forms, Tabbed Browsing, and Screen Reading](https://creative.colorado.edu/~chko6454/atls3150/lab3/)
 
-> Create a properly structured semantic HTML page with "lifted content" (no lorem ipsum) that contains accessible form elements and an accessible data table, and validate with HTML validator.
+> Create a properly structured semantic HTML page with "lifted content" (no lorem ipsum) that contains accessible form elements and an accessible data table, and validate with [HTML validator](https://validator.w3.org/nu/).
+
+[Documentation](https://charliekoepke.wordpress.com/2022/03/07/lab-forms-tables-tabbed-browsing-and-screen-reading/)
+
+## [Lab - Accessible CSS Layout](https://creative.colorado.edu/~chko6454/atls3150/lab4/)
+
+> Create a multicolumn webpage with a header, nav, main, 2 asides, and a footer. Design using an external CSS stylsheet, using CSS grid for the main layout, and CSS flexbox for the nav layout. Use HTML viewport and CSS media queries to reorder and rearrange the elements for tablet and mobile devices. Include two imported [Google Fonts](https://fonts.google.com/), and an [Adobe Color](https://color.adobe.com/create/color-wheel) colour scheme. Validate with the [HTML validator](https://validator.w3.org/nu/), and test using a screen reader as well.
 
 [Documentation]()
