@@ -3,6 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 
 
+section {
+    background: #51F1FF;
+    grid-area: section;
+}
+
+#leftAside {
+    background: #64FFC2;
+    grid-area: leftAside;
+}
+
+#rightAside {
+    background: #FF8063;
+    grid-area: rightAside;
+}
+
+nav {
+    background: #D0FF89;
+}
+
 /* Mobile Format */
 @media screen and (max-width: 640px) {
     main {
@@ -32,7 +51,7 @@
 }
 
 /* Windows Format */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 901px) {
     nav ul {
         display: flex;
         flex-flow: row nowrap;
@@ -45,7 +64,8 @@
     }
     main {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns:
+        1fr 1fr 1fr;
         margin: 1em;
         grid-template-areas:
         "leftAside section rightAside";
@@ -60,6 +80,8 @@ section {
 
 html {
     font-family: 'Antic', sans-serif;
+    color: #07183A;
+    background-color: #7AB2FF;
 }
 
 header {
@@ -69,6 +91,7 @@ header {
 
 footer {
     text-align: center;
+    background: #F393FF;
 }
 
 nav ul {
