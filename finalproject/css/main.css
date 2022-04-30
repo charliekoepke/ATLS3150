@@ -36,19 +36,43 @@ figcaption {
     text-align: center;
 }
 
+footer p {
+    font-size: 0.5em;
+    text-align: center;
+}
+
 /* Mobile Format */
 @media screen and (max-width: 750px) {
     html {
         text-align: justify;
     }
+
+    iframe {
+        width: 450px;
+        height: 300px;
+    }
 }
 
 /* Tablet Format */
 @media screen and (min-width: 751px) and (max-width:2048px) {
+    html {
+        text-align: justify;
+    }
 
+    iframe {
+        width: 975px;
+        height: 650px;
+    }
 }
 
 /* Desktop Format */
 @media screen and (min-width: 2049px) {
+    html {
+        text-align: left;
+    }
 
+    iframe {
+        width: 800px;
+        height: 600px;
+    }
 }
