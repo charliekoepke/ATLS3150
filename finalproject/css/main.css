@@ -5,6 +5,8 @@
 html {
     font-family: 'Asap', sans-serif;
     margin: 1em;
+    background-color: #F5E5FF;
+    color: #1D438A; 
 }
 
 header h1 {
