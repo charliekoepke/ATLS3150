@@ -24,4 +24,10 @@ All labs and projects for ATLS 3150 - Universal Design for Digital Media
 
 > Create a multicolumn webpage with a header, nav, main, 2 asides, and a footer. Design using an external CSS stylsheet, using CSS grid for the main layout, and CSS flexbox for the nav layout. Use HTML viewport and CSS media queries to reorder and rearrange the elements for tablet and mobile devices. Include two imported [Google Fonts](https://fonts.google.com/), and an [Adobe Color](https://color.adobe.com/create/color-wheel) colour scheme. Validate with the [HTML validator](https://validator.w3.org/nu/), and test using a screen reader as well.
 
+[Documentation](https://charliekoepke.wordpress.com/2022/03/14/lab-accessible-css-layout/)
+
+## [Project - Universal Design Website]
+
+> Create an educational web site that promotes universal design to web developers and designers. The target audience is the current generation and future generations of designers.
+
 [Documentation]()
