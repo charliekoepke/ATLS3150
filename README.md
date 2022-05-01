@@ -26,7 +26,7 @@ All labs and projects for ATLS 3150 - Universal Design for Digital Media
 
 [Documentation](https://charliekoepke.wordpress.com/2022/03/14/lab-accessible-css-layout/)
 
-## [Project - Universal Design Website]
+## [Project - Universal Design Website](https://creative.colorado.edu/~chko6454/atls3150/finalproject/)
 
 > Create an educational web site that promotes universal design to web developers and designers. The target audience is the current generation and future generations of designers.
 
